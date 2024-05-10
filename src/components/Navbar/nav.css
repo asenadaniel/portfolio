@@ -1,0 +1,13 @@
+.animate-slideIn {
+  animation-name: slideIn;
+  animation-duration: 0.5s;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
