@@ -1,4 +1,3 @@
-import React from 'react'
 import work1 from '../../assets/work1.jpg'
 import work2 from '../../assets/work2.jpg'
 import work3 from '../../assets/work3.jpg'
@@ -6,7 +5,7 @@ import work4 from '../../assets/work4.jpg'
 
 function Work() {
   return (
-    <div className='  bg-[#0a192f] w-full md:h-screen text-gray-300' id='work'>
+    <div className='  bg-[#0a192f] w-full md:h-screen text-gray-300 md:py-[570px] ' id='work' >
 
       <div className=' max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full px-9 ' >
         <div className=' pb-8'>
