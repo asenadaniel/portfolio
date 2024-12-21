@@ -1,5 +1,5 @@
 
-import { Email, GitHub, Menu } from '@mui/icons-material'
+import { Email, GitHub, LinkedIn, Menu } from '@mui/icons-material'
 import CloseIcon from '@mui/icons-material/Close';
 import React, { useState } from 'react'
 import './nav.css'
@@ -93,13 +93,13 @@ function Navbar() {
       <div className=' lg:flex hidden fixed top-[35%] left-0'>
         <ul>
           <li className='w-[120px] h-16 flex justify-between items-center ml-[-66px] hover:ml-[-10px] duration-300 bg-blue-950'>
-            <a href="" className=' flex justify-between items-center w-full  '>
+            <a href="https://github.com/asenadaniel" className=' flex justify-between items-center w-full  '>
               GitHub <GitHub />
             </a>
           </li>
           <li className='w-[120px] h-16 flex justify-between items-center ml-[-66px] hover:ml-[-10px] duration-300 bg-black'>
-            <a href="" className=' flex justify-between items-center w-full  '>
-              Email <Email />
+            <a href="https://www.linkedin.com/in/daniel-asena-972121261/" className=' flex justify-between items-center w-full  '>
+              Linked <LinkedIn />
             </a>
           </li>
 
