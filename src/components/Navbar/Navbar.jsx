@@ -1,7 +1,7 @@
 
-import { Email, GitHub, LinkedIn, Menu } from '@mui/icons-material'
+import { GitHub, LinkedIn, Menu } from '@mui/icons-material'
 import CloseIcon from '@mui/icons-material/Close';
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './nav.css'
 import { Link } from 'react-scroll';
 
