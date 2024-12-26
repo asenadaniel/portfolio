@@ -13,7 +13,7 @@ function Home() {
         <p className='text-[#8892b0] max-w-[700px] py-5'>I&#39;m all about React, striving to create stellar digital experiences</p>
 
         <div>
-          <button className=' group flex items-center justify-between cursor-pointer text-white border-2 px-6 py-3 my-3 hover:bg-slate-600 hover:border-slate-600'>
+          <button className=' group flex items-center justify-between cursor-pointer text-white border-2 px-6 py-3 my-3 hover:bg-slate-600 hover:border-slate-600' >
             View Work
             <span className=' group-hover:rotate-90 duration-300'>
               <ArrowForward className='ml-3' />

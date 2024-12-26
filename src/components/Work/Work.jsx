@@ -74,6 +74,7 @@ function Work() {
             </div>
           </div>
 
+          <p className=' text-center flex justify-center items-center text-xl font-bold '>More Coming Soon.....</p>
         </div>
       </div>
     </div>
