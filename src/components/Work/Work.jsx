@@ -23,9 +23,9 @@ function Work() {
                   Demo
                 </button>
               </a>
-              <button className=' bg-slate-600 px-6 py-3 rounded-lg'>
-                <a href="https://github.com/asenadaniel/Food"></a>Code
-              </button>
+              <a href="https://github.com/asenadaniel/Food">
+                <button className=' bg-slate-600 px-6 py-3 rounded-lg'>Code</button>
+              </a>
             </div>
           </div>
 
@@ -38,9 +38,9 @@ function Work() {
                   Demo
                 </button>
               </a>
-              <button className=' bg-slate-600 px-6 py-3 rounded-lg'>
-                <a href="https://github.com/asenadaniel/Neti"></a>Code
-              </button>
+              <a href="https://github.com/asenadaniel/Neti">
+                <button className=' bg-slate-600 px-6 py-3 rounded-lg'>Code</button>
+              </a>
             </div>
           </div>
 
@@ -53,9 +53,9 @@ function Work() {
                   Demo
                 </button>
               </a>
-              <button className=' bg-slate-600 px-6 py-3 rounded-lg'>
-                <a href="/https://github.com/asenadaniel/thepizza"></a>Code
-              </button>
+              <a href="https://github.com/asenadaniel/thepizza">
+                <button className=' bg-slate-600 px-6 py-3 rounded-lg'>Code</button>
+              </a>
             </div>
           </div>
 
@@ -68,9 +68,9 @@ function Work() {
                   Demo
                 </button>
               </a>
-              <button className=' bg-slate-600 px-6 py-3 rounded-lg'>
-                <a href="https://github.com/asenadaniel/ecommerce"></a>Code
-              </button>
+              <a href="https://github.com/asenadaniel/ecommerce">
+                <button className=' bg-slate-600 px-6 py-3 rounded-lg'>code</button>
+              </a>
             </div>
           </div>
 
