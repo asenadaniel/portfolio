@@ -24,7 +24,7 @@ function Work() {
                 </button>
               </a>
               <button className=' bg-slate-600 px-6 py-3 rounded-lg'>
-                <a href="/"></a>Code
+                <a href="https://github.com/asenadaniel/Food"></a>Code
               </button>
             </div>
           </div>
@@ -39,7 +39,7 @@ function Work() {
                 </button>
               </a>
               <button className=' bg-slate-600 px-6 py-3 rounded-lg'>
-                <a href="/"></a>Code
+                <a href="https://github.com/asenadaniel/Neti"></a>Code
               </button>
             </div>
           </div>
@@ -54,7 +54,7 @@ function Work() {
                 </button>
               </a>
               <button className=' bg-slate-600 px-6 py-3 rounded-lg'>
-                <a href="/"></a>Code
+                <a href="/https://github.com/asenadaniel/thepizza"></a>Code
               </button>
             </div>
           </div>
@@ -69,7 +69,7 @@ function Work() {
                 </button>
               </a>
               <button className=' bg-slate-600 px-6 py-3 rounded-lg'>
-                <a href="/"></a>Code
+                <a href="https://github.com/asenadaniel/ecommerce"></a>Code
               </button>
             </div>
           </div>
