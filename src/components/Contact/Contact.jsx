@@ -1,8 +1,11 @@
 import { useForm, ValidationError } from '@formspree/react';
-import Thanks from '../Thanks.jsx/Thanks';
+import { ToastContainer, toast } from 'react-toastify';
 
 function Contact() {
   const [state, handleSubmit] = useForm("mvggpkjo");
+
+  const notify = () => toast.success('In progress!.......');
+
 
   return (
     <div className=' w-full  bg-[#0a192f] h-screen flex justify-center items-center p-5' id='contact'>
@@ -14,9 +17,7 @@ function Contact() {
           </p>
           <p className=' py-4 text-gray-300'>Submit the form below</p>
         </div>
-        {/* <label htmlFor="email" className=' text-white'>
-          Email Address
-        </label> */}
+
         <input
           id="email"
           type="email"
@@ -29,9 +30,7 @@ function Contact() {
           field="email"
           errors={state.errors}
         />
-        {/* <label htmlFor="message" className=' text-white pb-5'>
-          Message
-        </label> */}
+
         <textarea
           id="message"
           name="message"
@@ -44,13 +43,16 @@ function Contact() {
           field="message"
           errors={state.errors}
         />
-        <button type="submit" disabled={state.submitting} className=' text-white border-2 mt-8 hover:border-black hover:bg-black px-4 py-3 flex justify-center items-center  '>
+        <button type="submit" disabled={state.submitting} onClick={notify} className=' text-white border-2 mt-8 hover:border-black hover:bg-black px-4 py-3 flex justify-center items-center  '>
           Submit 😊
         </button>
-        {state.succeeded ? <Thanks /> : null}
+        {state.succeeded ? toast.success('Form submitted successfully!') : null}
+        <ToastContainer />
       </form>
     </div>
   );
+
 }
+
 
 export default Contact
