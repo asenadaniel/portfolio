@@ -12,8 +12,30 @@ function Navbar() {
 
   return (
     <div className=' fixed w-full h-20 flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
-      <div>
-        <h1 className=' ml-10 text-3xl'>Asndaniel</h1>
+      <div className=' flex justify-center items-center mx-2'>
+
+        <div>
+          <h1 className=' ml-10 text-3xl'>Asndaniel</h1>
+        </div>
+        <div className=' lg:hidden '>
+          <ul className=' flex ml-[100%] gap-2  '>
+            <a href="https://github.com/asenadaniel">
+              <li className='w-[100px] h-16 flex justify-between items-center ml-[-66px]  '>
+                <a href="https://github.com/asenadaniel" className=' flex justify-between items-center w-full  '>
+                  <GitHub />
+                </a>
+              </li>
+            </a>
+            <a href="https://www.linkedin.com/in/daniel-asena-972121261/">
+              <li className='w-[120px] h-16 flex justify-between items-center ml-[-66px] '>
+                <a href="https://www.linkedin.com/in/daniel-asena-972121261/" className=' flex justify-between items-center w-full  '>
+                  <LinkedIn />
+                </a>
+              </li>
+            </a>
+
+          </ul>
+        </div>
       </div>
 
       <ul className=' md:flex hidden'>
@@ -90,7 +112,7 @@ function Navbar() {
 
 
       {/* social icons */}
-      <div className=' lg:flex hidden fixed top-[35%] left-0'>
+      <div className=' lg:flex hidden  fixed top-[35%] left-0'>
         <ul>
           <a href="https://github.com/asenadaniel">
             <li className='w-[120px] h-16 flex justify-between items-center ml-[-66px] hover:ml-[-10px] duration-300 bg-blue-950'>
@@ -109,6 +131,7 @@ function Navbar() {
 
         </ul>
       </div>
+
     </div>
   )
 }
