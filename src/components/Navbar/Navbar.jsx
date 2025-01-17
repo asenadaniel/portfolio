@@ -92,7 +92,7 @@ function Navbar() {
 
 
       {/* social icons */}
-      <div className=' lg:flex hidden  fixed top-[35%] left-0'>
+      <div className=' xl:flex hidden  fixed top-[35%] left-0'>
         <ul>
           <a href="https://github.com/asenadaniel">
             <li className='w-[120px] h-16 flex justify-between items-center ml-[-66px] hover:ml-[-10px] duration-300 bg-blue-950'>

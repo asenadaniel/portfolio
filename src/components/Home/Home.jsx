@@ -21,19 +21,19 @@ function Home() {
           </button>
         </div>
 
-        <div className=' lg:hidden '>
+        <div className=' xl:hidden '>
           <ul className=' flex   '>
             <a href="https://github.com/asenadaniel">
-              <li className='w-[60px] h-16 flex justify-between items-center bg-blue-950  '>
+              <li className='w-[120px] h-16 flex justify-between items-center bg-blue-950  '>
                 <a href="https://github.com/asenadaniel" className=' flex justify-between items-center w-full  '>
-                  <GitHub />
+                  GitHub <GitHub />
                 </a>
               </li>
             </a>
             <a href="https://www.linkedin.com/in/daniel-asena-972121261/">
-              <li className='w-[60px] h-16 flex justify-between items-center bg-black text-white '>
+              <li className='w-[120px] h-16 flex justify-between items-center bg-black text-white '>
                 <a href="https://www.linkedin.com/in/daniel-asena-972121261/" className=' flex justify-between items-center w-full  '>
-                  <LinkedIn />
+                  LinkedIn <LinkedIn />
                 </a>
               </li>
             </a>
