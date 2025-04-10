@@ -3,6 +3,7 @@ import work2 from '../../assets/work2.jpg'
 import work3 from '../../assets/work3.jpg'
 import work4 from '../../assets/work4.jpg'
 import invoice2 from '../../assets/invoice2.jpg'
+import ticket from '../../assets/ticket.jpg'
 
 function Work() {
   return (
@@ -84,6 +85,20 @@ function Work() {
                 </button>
               </a>
               <a href="https://github.com/asenadaniel/invoiceGebnerator">
+                <button className=' bg-slate-600 px-6 py-3 rounded-lg'>code</button>
+              </a>
+            </div>
+          </div>
+          <div className='  group container flex justify-center flex-col items-center mx-auto gap-5'>
+            <h1 className=' text-xl font-bold'>Ticket Generator</h1>
+            <img src={ticket} alt="" className=' h-[276] w-[250px] object-contain' />
+            <div className=' flex gap-5   '>
+              <a href="https://tidketgenerator.vercel.app/">
+                <button className=' bg-slate-600 px-6 py-3 rounded-lg'>
+                  Demo
+                </button>
+              </a>
+              <a href="https://github.com/asenadaniel/tidketgenerator">
                 <button className=' bg-slate-600 px-6 py-3 rounded-lg'>code</button>
               </a>
             </div>

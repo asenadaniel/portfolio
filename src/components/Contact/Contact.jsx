@@ -18,6 +18,7 @@ function Contact() {
           <p className=' py-4 text-gray-300'>Submit the form below</p>
         </div>
 
+
         <input
           id="email"
           type="email"
