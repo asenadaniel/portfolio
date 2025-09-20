@@ -35,7 +35,7 @@ function Skills() {
           </div>
           <div className=' shadow-md hover:scale-110 duration-500 '>
             <img src={nextJs} alt="" className=' w-20 mx-auto' />
-            <p className=' my-5'>NextJs</p>
+            <p className=' my-5'>NEXTJS</p>
           </div>
           <div className=' shadow-md hover:scale-110 duration-500 '>
             <img src={fireebase} alt="" className=' w-20 mx-auto' />
