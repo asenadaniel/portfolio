@@ -10,7 +10,7 @@ function Home() {
         <p className=' text-blue-400   '>Hi, My Name is</p>
         <h1 className=' text-4xl sm:text-6xl font-bold text-[#ccd6f6f6]'>Daniel Asena</h1>
         <h2 className=' text-3xl sm:text-6xl font-bold text-[#8892b0] '>I&#39;m a Front-End Developer.</h2>
-        <p className='text-[#8892b0] max-w-[700px] py-5'>I&#39;m all about React, striving to create stellar digital experiences</p>
+        <p className='text-[#8892b0] max-w-[700px] py-5'>Passionate about crafting clean, user-friendly interfaces and seamless digital experiences.</p>
 
         <div className=' mb-7'>
           <button className=' group flex items-center justify-between cursor-pointer text-white border-2 px-6 py-3 my-3 hover:bg-slate-600 hover:border-slate-600 ' >

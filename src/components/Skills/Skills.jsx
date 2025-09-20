@@ -1,9 +1,10 @@
-import React from 'react'
+
 import Tailwind from '../../assets/tailwind.png'
 import react from '../../assets/react.png'
 import HTML from '../../assets/html.png'
 import fireebase from '../../assets/firebase.png'
 import css from '../../assets/css.png'
+import nextJs from '../../assets/nextjs.png'
 
 
 function Skills() {
@@ -31,6 +32,10 @@ function Skills() {
           <div className=' shadow-md hover:scale-110 duration-500 '>
             <img src={react} alt="" className=' w-20 mx-auto' />
             <p className=' my-5'>REACT</p>
+          </div>
+          <div className=' shadow-md hover:scale-110 duration-500 '>
+            <img src={nextJs} alt="" className=' w-20 mx-auto' />
+            <p className=' my-5'>NextJs</p>
           </div>
           <div className=' shadow-md hover:scale-110 duration-500 '>
             <img src={fireebase} alt="" className=' w-20 mx-auto' />
