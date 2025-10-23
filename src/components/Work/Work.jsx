@@ -113,7 +113,7 @@ function Work() {
                   Demo
                 </button>
               </a>
-              <a href="#">
+              <a href="https://github.com/asenadaniel/VolumeUP">
                 <button className=' bg-slate-600 px-6 py-3 rounded-lg'>code</button>
               </a>
             </div>
