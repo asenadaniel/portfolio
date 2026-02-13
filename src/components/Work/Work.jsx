@@ -5,6 +5,7 @@ import work4 from '../../assets/work4.jpg'
 import invoice2 from '../../assets/invoice2.jpg'
 import ticket from '../../assets/ticket.jpg'
 import agency from '../../assets/Agency.jpg'
+import iprescribe from '../../assets/iprescribe.jpg'
 
 function Work() {
   return (
@@ -114,6 +115,20 @@ function Work() {
                 </button>
               </a>
               <a href="https://github.com/asenadaniel/VolumeUP">
+                <button className=' bg-slate-600 px-6 py-3 rounded-lg'>code</button>
+              </a>
+            </div>
+          </div>
+          <div className='  group container flex justify-center flex-col items-center mx-auto gap-5'>
+            <h1 className=' text-xl font-bold'>Iprescribe</h1>
+            <img src={iprescribe} alt="" className=' h-[276] w-[250px] object-contain' />
+            <div className=' flex gap-5   '>
+              <a href="https://iprescribe-five.vercel.app/">
+                <button className=' bg-slate-600 px-6 py-3 rounded-lg'>
+                  Demo
+                </button>
+              </a>
+              <a href="https://github.com/asenadaniel/iprescribe">
                 <button className=' bg-slate-600 px-6 py-3 rounded-lg'>code</button>
               </a>
             </div>
